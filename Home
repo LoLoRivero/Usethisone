@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeenTalk - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #333;
+    }
+
+    header {
+        background-color: #fff;
+        text-align: center;
+        padding: 1.5rem 0;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1,
+    .introduction h2,
+    .features h2,
+    .testimonials h2,
+    .cta h2 {
+        color: #007acc;
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: background-color 0.3s;
+        margin-bottom: 1.5rem;
+    }
+
+    nav ul {
+        padding: 0;
+        list-style-type: none;
+        font-size: 1.1rem;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: #007acc;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .banner {
+        font-family: 'Pacifico', cursive;
+        background: linear-gradient(135deg, #009ffd, #2a2a72);
+        color: #ffffff;
+        padding: 2rem 0;
+        text-align: center;
+        font-size: 2rem;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .introduction,
+    .features,
+    .testimonials,
+    .cta {
+        padding: 3rem 10%;
+        background-color: #blue;
+        margin: 20px 0;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .introduction p,
+    .features p,
+    .testimonials p {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-bottom: 1rem;
+    }
+
+    .highlight {
+        color: #007acc;
+        font-weight: bold;
+    }
+
+    .features ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .features ul li {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .features ul li i {
+        color: #007acc;
+        margin-right: 10px;
+    }
+
+    .testimonials blockquote {
+        border-left: 4px solid #007acc;
+        padding-left: 20px;
+        font-style: italic;
+        margin-bottom: 1.5rem;
+    }
+
+    .cta {
+        text-align: center;
+    }
+
+    .cta button {
+        margin: 20px 10px;
+        padding: 12px 24px;
+        border: none;
+        background-color: #007acc;
+        color: #fff;
+        font-size: 1.2rem;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .cta button:hover {
+        background-color: #005fa3;
+    }
+
+    .cta button a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer {
+        background-color: #007acc;
+        color: #fff;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+
+    .footer-links a {
+        margin: 0 10px;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .footer-links a:hover {
+        color: #e5e5e5;
+    }
+
+    .footer-contact p {
+        margin: 10px 0;
+    }
+
+    </head>
+
+</style>
+
+
+<body>
+    <header>
+        <h1>Welcome to TeenTalk</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html" class="active">Home</a></li>
+                <li><a href="About%20Us.html">About Us</a></li>
+                <li><a href="Mental Health Topics.html">Mental Health Topics</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="Contact%20Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <p>"Your story isn't over; keep turning the pages."</p>
+    </section>
+
+    <section class="introduction">
+        <h2>Our Mission</h2>
+        <p>At TeenTalk, our mission is to empower teenagers with knowledge, understanding, and the tools they need to face their mental health challenges. By creating a community of openness and acceptance, we strive to ensure every teen knows they are not alone in their journey. Together, we can build a brighter, healthier future for all.</p>
+        <p>Our aim is to offer a <span class="highlight">safe, judgement-free space</span> where every teenager feels heard, valued, and supported.</p>
+    </section>
+
+    <section class="features">
+        <h2>Our Services</h2>
+        <ul>
+            <li><i class="fas fa-book"></i> Expert Advice and Articles</li>
+            <li><i class="fas fa-star"></i> Personalized Resource Recommendations</li>
+            <li><i class="fab fa-forumbee"></i> Community Forums and Discussions</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Teens Say About Us</h2>
+        <blockquote>
+            "TeenTalk has been a game changer for me. It's comforting to know there's a place where I can just be myself." - Jordan, 16
+        </blockquote>
+        <blockquote>
+            "I've learned so much from the resources here. Thank you for making this platform!" - Alex, 18
+        </blockquote>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Start?</h2>
+        <button onclick="location.href='#'">Talk Now</button>
+        <button onclick="location.href='#'">Find Resources</button>
+    </section>
+    <footer>
+        <div class="footer-links">
+        </div>
+        <div class="footer-contact">
+            <p>Email: <a href="mailto:support@teentalk.com">support@teentalk.com</a></p>
+            <p>Phone: 434-555-1234</p>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2023 TeenTalk. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
